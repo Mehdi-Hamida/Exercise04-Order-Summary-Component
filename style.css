@@ -38,8 +38,6 @@ main.card-body
 /* Card Image */
 main.card-body .img-container
 {
-    background: url(./images/illustration-hero.svg) no-repeat center;
-    background-size: cover;
     height: 225px;
 }
 
@@ -107,13 +105,17 @@ main.card-body .texts-container .row a.change-plan
 }
 
 
-main.card-body .texts-container .btn
+main.card-body .texts-container button
 {
     margin-top: 30px;
+    width: 100%;
+    border: none;
     display: block;
     background: var(--call-to-action);
     padding: 15px 0;
     border-radius: 12px;
+    font-family: var(--font);
+    font-size: 1rem;
     font-weight: 700;
     color: #fff;
     text-decoration: none;
@@ -137,7 +139,7 @@ main.card-body .texts-container .row a.change-plan:hover
     cursor: pointer;
 }
 
-main.card-body .texts-container .btn:hover
+main.card-body .texts-container button:hover
 {
     background: var(--active-link-color);
     cursor: pointer;
